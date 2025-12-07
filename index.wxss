@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  padding: 20rpx;
+}
+
+.header {
+  padding: 40rpx 20rpx;
+  text-align: center;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15rpx;
+  display: block;
+}
+
+.subtitle {
+  font-size: 26rpx;
+  color: #666;
+}
+
+.constitution-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20rpx;
+  margin-top: 20rpx;
+  flex-grow: 1;
+}
+
+.constitution-item {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx 20rpx;
+  margin: 10rpx;
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.05);
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+  border: 2rpx solid transparent;
+}
+
+.constitution-item.selected {
+  background-color: #3bb4f2;
+  border-color: #29a1e6;
+}
+
+.constitution-item.selected .item-text {
+  color: #fff;
+}
+
+.item-text {
+  font-size: 28rpx;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.select-indicator {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-btn {
+  margin: 40rpx 20rpx;
+  padding: 20rpx;
+  background-color: #3bb4f2;
+  color: #fff;
+  font-size: 30rpx;
+  border-radius: 100rpx;
+  box-shadow: 0 6rpx 16rpx rgba(59, 180, 242, 0.4);
+  transition: all 0.3s ease;
+}
+
+.submit-btn:not([disabled]):hover {
+  background-color: #29a1e6;
+}
+
+.submit-btn[disabled] {
+  background-color: #ccc;
+  box-shadow: none;
+}

@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="header">
+    <text class="title">选择您的体质问题</text>
+    <text class="subtitle">请选择一项您需要改善的体质问题</text>
+  </view>
+  
+  <view class="constitution-list">
+    <block wx:for="{{constitutionList}}" wx:key="identity">
+      <view 
+        class="constitution-item {{selectedId === item.identity ? 'selected' : ''}}"
+        bindtap="selectConstitution"
+        data-id="{{item.identity}}"
+      >
+        <text class="item-text">{{item.name}}</text>
+        <view class="select-indicator" wx:if="{{selectedId === item.identity}}">
+          <icon type="success" size="20" color="#fff" />
+        </view>
+      </view>
+    </block>
+  </view>
+  
+  <button 
+    class="submit-btn" 
+    bindtap="submitSelection"
+    disabled="{{!selectedId}}"
+  >
+    查看推荐
+  </button>
+</view>
