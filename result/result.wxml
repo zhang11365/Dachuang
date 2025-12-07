@@ -1,0 +1,69 @@
+<view class="container">
+  <!-- 示意图区域 -->
+  <view class="illustration-container">
+    <text class="illustration-title">推荐食物关系图</text>
+    
+    <!-- 中心体质圆圈 -->
+    <view class="constitution-circle">
+      <text class="constitution-text">{{constitutionName}}</text>
+    </view>
+    
+    <!-- 连接线 -->
+    <view class="connection-lines">
+      <block wx:for="{{foodList}}" wx:key="index">
+        <view 
+          class="connection-line" 
+          style="width:{{item.lineLength}}rpx; transform: rotate({{item.lineAngle}}deg); left:{{item.lineStartX}}rpx; top:{{item.lineStartY}}rpx;">
+        </view>
+      </block>
+    </view>
+    
+    <!-- 发散的食物节点 -->
+    <view class="food-nodes">
+      <block wx:for="{{foodList}}" wx:key="index">
+        <view
+          class="food-node"
+          style="top:{{item.top}}rpx; left:{{item.left}}rpx;">
+          <text class="food-name">{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <!-- 食物详情列表 -->
+  <view class="food-details">
+    <text class="details-title">食物营养与功效</text>
+    
+    <view class="food-cards">
+      <block wx:for="{{foodList}}" wx:key="index">
+        <view class="food-card">
+          <!-- 食物名称 -->
+          <view class="card-header">
+            <text class="card-title">{{item.name}}</text>
+          </view>
+          
+          <!-- 营养素 -->
+          <view class="card-content">
+            <text class="content-label">含有的营养素：</text>
+            <text class="content-value" wx:if="{{item.nutrients && item.nutrients.length > 0}}">
+              {{item.nutrients.join('、')}}
+            </text>
+            <text class="content-value" wx:else>暂无营养素数据</text>
+          </view>
+          
+          <!-- 作用功效 -->
+          <view class="card-content">
+            <text class="content-label">对体质的作用：</text>
+            <text class="content-value">{{item.effect}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+  
+  <!-- 顶部返回按钮 -->
+  <view class="back-btn" bindtap="onNavigateBack">
+    <icon type="left" size="32" color="#333" />
+    <text class="back-text">返回重新选择</text>
+  </view>
+</view>
