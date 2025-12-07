@@ -1,0 +1,302 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "益生菌"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "豆腐"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "镁"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "大豆异黄酮"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "体质"
+      ],
+      "properties": {
+        "name": "免疫力低下"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "西蓝花"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "萝卜硫素"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "β-胡萝卜素"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "柑橘类水果"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "类黄酮"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "瘦牛肉"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "体质"
+      ],
+      "properties": {
+        "name": "视觉疲劳/视力下降"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "胡萝卜"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "β-胡萝卜素（维生素A原）"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "南瓜"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "叶黄素"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "蓝莓"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "花青素"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "体质"
+      ],
+      "properties": {
+        "name": "便秘/消化不良"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "燕麦"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "膳食纤维（β-葡聚糖）"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "B族维生素"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "食物"
+      ],
+      "properties": {
+        "name": "红薯"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "膳食纤维"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "营养素"
+      ],
+      "properties": {
+        "name": "果胶"
+      },
+      "elementId": "4:dfa26308-1936-48ad-b819-e80f8007078c:24"
+    }
+  }
+]
